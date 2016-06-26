@@ -7,7 +7,7 @@ The link resolver matches on `"yelp.com/biz/..."` links within the email.
 
 ex: `yelp.com/biz/treat-ice-cream-company-san-jose`
 
-From there, it renders a Yelp page and takes a snapshot of the top portion of the page. It serves up a clickable snapshot that will redirects to the Yelp page itself on click. 
+From there, it renders a Yelp page and takes a snapshot of the top portion of the page. It serves up a clickable snapshot that redirects to the Yelp page itself on click. 
 
 Written in JavaScript and uses PhantomJS.
 
